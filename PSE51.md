@@ -185,58 +185,65 @@
 |                                                              | [va_end()](https://pubs.opengroup.org/onlinepubs/9699919799/functions/va_end.html) | *    | *    |
 |                                                              | [va_start()](https://pubs.opengroup.org/onlinepubs/9699919799/functions/va_start.html) | *    | *    |
 ### stdio.h
-| [<stdio.h>](https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/stdio.h.html) |                                                              |      |      |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ---- | ---- |
-|                                                              | [clearerr()](https://pubs.opengroup.org/onlinepubs/9699919799/functions/clearerr.html) | *    |      |
-|                                                              | [fclose()](https://pubs.opengroup.org/onlinepubs/9699919799/functions/fclose.html) | *    |      |
-|                                                              | [fdopen()](https://pubs.opengroup.org/onlinepubs/9699919799/functions/fdopen.html) | *    |      |
-|                                                              | [feof()](https://pubs.opengroup.org/onlinepubs/9699919799/functions/feof.html) | *    |      |
-|                                                              | [ferror()](https://pubs.opengroup.org/onlinepubs/9699919799/functions/ferror.html) | *    |      |
-|                                                              | [fflush()](https://pubs.opengroup.org/onlinepubs/9699919799/functions/fflush.html) | *    |      |
-|                                                              | [fgetc()](https://pubs.opengroup.org/onlinepubs/9699919799/functions/fgetc.html) | *    |      |
-|                                                              | [fgets()](https://pubs.opengroup.org/onlinepubs/9699919799/functions/fgets.html) | *    |      |
-|                                                              | [fileno()](https://pubs.opengroup.org/onlinepubs/9699919799/functions/fileno.html) | *    |      |
-|                                                              | [flockfile()](https://pubs.opengroup.org/onlinepubs/9699919799/functions/flockfile.html) | *    |      |
-|                                                              | [fopen()](https://pubs.opengroup.org/onlinepubs/9699919799/functions/fopen.html) | *    |      |
-|                                                              | [fprintf()](https://pubs.opengroup.org/onlinepubs/9699919799/functions/fprintf.html) | *    |      |
-|                                                              | [fputc()](https://pubs.opengroup.org/onlinepubs/9699919799/functions/fputc.html) | *    |      |
-|                                                              | [fputs()](https://pubs.opengroup.org/onlinepubs/9699919799/functions/fputs.html) | *    |      |
-|                                                              | [fread()](https://pubs.opengroup.org/onlinepubs/9699919799/functions/fread.html) | *    |      |
-|                                                              | [freopen()](https://pubs.opengroup.org/onlinepubs/9699919799/functions/freopen.html) | *    |      |
-|                                                              | [fscanf()](https://pubs.opengroup.org/onlinepubs/9699919799/functions/fscanf.html) | *    |      |
-|                                                              | [ftrylockfile()](https://pubs.opengroup.org/onlinepubs/9699919799/functions/ftrylockfile.html) | *    |      |
-|                                                              | [funlockfile()](https://pubs.opengroup.org/onlinepubs/9699919799/functions/funlockfile.html) | *    |      |
-|                                                              | [fwrite()](https://pubs.opengroup.org/onlinepubs/9699919799/functions/fwrite.html) | *    |      |
-|                                                              | [getc()](https://pubs.opengroup.org/onlinepubs/9699919799/functions/getc.html) | *    |      |
-|                                                              | [getc_unlocked()](https://pubs.opengroup.org/onlinepubs/9699919799/functions/getc_unlocked.html) | *    |      |
-|                                                              | [getchar()](https://pubs.opengroup.org/onlinepubs/9699919799/functions/getchar.html) | *    |      |
-|                                                              | [getchar_unlocked()](https://pubs.opengroup.org/onlinepubs/9699919799/functions/getchar_unlocked.html) | *    |      |
-|                                                              | [gets()](https://pubs.opengroup.org/onlinepubs/9699919799/functions/gets.html) | *    |      |
-|                                                              | [perror()](https://pubs.opengroup.org/onlinepubs/9699919799/functions/perror.html) | *    |      |
-|                                                              | [printf()](https://pubs.opengroup.org/onlinepubs/9699919799/functions/printf.html) | *    |      |
-|                                                              | [putc()](https://pubs.opengroup.org/onlinepubs/9699919799/functions/putc.html) | *    |      |
-|                                                              | [putc_unlocked()](https://pubs.opengroup.org/onlinepubs/9699919799/functions/putc_unlocked.html) | *    |      |
-|                                                              | [putchar()](https://pubs.opengroup.org/onlinepubs/9699919799/functions/putchar.html) | *    |      |
-|                                                              | [putchar_unlocked()](https://pubs.opengroup.org/onlinepubs/9699919799/functions/putchar_unlocked.html) | *    |      |
-|                                                              | [puts()](https://pubs.opengroup.org/onlinepubs/9699919799/functions/puts.html) | *    |      |
-|                                                              | [scanf()](https://pubs.opengroup.org/onlinepubs/9699919799/functions/scanf.html) | *    |      |
-|                                                              | [setbuf()](https://pubs.opengroup.org/onlinepubs/9699919799/functions/setbuf.html) | *    |      |
-|                                                              | [setvbuf()](https://pubs.opengroup.org/onlinepubs/9699919799/functions/setvbuf.html) | *    |      |
-|                                                              | [snprintf()](https://pubs.opengroup.org/onlinepubs/9699919799/functions/snprintf.html) | *    |      |
-|                                                              | [sprintf()](https://pubs.opengroup.org/onlinepubs/9699919799/functions/sprintf.html) | *    |      |
-|                                                              | [sscanf()](https://pubs.opengroup.org/onlinepubs/9699919799/functions/sscanf.html) | *    |      |
-|                                                              | [stderr](https://pubs.opengroup.org/onlinepubs/9699919799/functions/stderr.html) | *    | *    |
-|                                                              | [stdin](https://pubs.opengroup.org/onlinepubs/9699919799/functions/stdin.html) | *    | *    |
-|                                                              | [stdout](https://pubs.opengroup.org/onlinepubs/9699919799/functions/stdout.html) | *    | *    |
-|                                                              | [ungetc()](https://pubs.opengroup.org/onlinepubs/9699919799/functions/ungetc.html) | *    |      |
-|                                                              | [vfprintf()](https://pubs.opengroup.org/onlinepubs/9699919799/functions/vfprintf.html) | *    | *    |
-|                                                              | [vfscanf()](https://pubs.opengroup.org/onlinepubs/9699919799/functions/vfscanf.html) | *    |      |
-|                                                              | [vprintf()](https://pubs.opengroup.org/onlinepubs/9699919799/functions/vprintf.html) | *    |      |
-|                                                              | [vscanf()](https://pubs.opengroup.org/onlinepubs/9699919799/functions/vscanf.html) | *    |      |
-|                                                              | [vsnprintf()](https://pubs.opengroup.org/onlinepubs/9699919799/functions/vsnprintf.html) | *    |      |
-|                                                              | [vsprintf()](https://pubs.opengroup.org/onlinepubs/9699919799/functions/vsprintf.html) | *    |      |
-|                                                              | [vsscanf()](https://pubs.opengroup.org/onlinepubs/9699919799/functions/vsscanf.html) | *    |      |
+| [<stdio.h>](https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/stdio.h.html) |                    |      |      |
+| ------------------------------------------------------------ | ------------------ | ---- | ---- |
+|                                                              | clearerr()         | *    |      |
+|                                                              | fclose()           | *    |      |
+|                                                              | fdopen()           | *    |      |
+|                                                              | feof()             | *    |      |
+|                                                              | ferror()           | *    |      |
+|                                                              | fflush()           | *    |      |
+|                                                              | fgetc()            | *    |      |
+|                                                              | fgets()            | *    |      |
+|                                                              | fileno()           | *    |      |
+|                                                              | flockfile()        | *    |      |
+|                                                              | fopen()            | *    |      |
+|                                                              | fprintf()          | *    |      |
+|                                                              | fputc()            | *    |      |
+|                                                              | fputs()            | *    |      |
+|                                                              | fread()            | *    |      |
+|                                                              | freopen()          | *    |      |
+|                                                              | fscanf()           | *    |      |
+|                                                              | ftrylockfile()     | *    |      |
+|                                                              | funlockfile()      | *    |      |
+|                                                              | fwrite()           | *    |      |
+|                                                              | getc()             | *    |      |
+|                                                              | getc_unlocked()    | *    |      |
+|                                                              | getchar()          | *    |      |
+|                                                              | getchar_unlocked() | *    |      |
+|                                                              | gets()             | *    |      |
+|                                                              | perror()           | *    |      |
+|                                                              | printf()           | *    |      |
+|                                                              | putc()             | *    |      |
+|                                                              | putc_unlocked()    | *    |      |
+|                                                              | putchar()          | *    |      |
+|                                                              | putchar_unlocked() | *    |      |
+|                                                              | puts()             | *    |      |
+|                                                              | scanf()            | *    |      |
+|                                                              | setbuf()           | *    |      |
+|                                                              | setvbuf()          | *    |      |
+|                                                              | snprintf()         | *    |      |
+|                                                              | sprintf()          | *    |      |
+|                                                              | sscanf()           | *    |      |
+|                                                              | stderr             | *    | *    |
+|                                                              | stdin              | *    | *    |
+|                                                              | stdout             | *    | *    |
+|                                                              | ungetc()           | *    |      |
+|                                                              | vfprintf()         | *    | *    |
+|                                                              | vfscanf()          | *    |      |
+|                                                              | vprintf()          | *    |      |
+|                                                              | vscanf()           | *    |      |
+|                                                              | vsnprintf()        | *    |      |
+|                                                              | vsprintf()         | *    |      |
+|                                                              | vsscanf()          | *    |      |
+```
+                fclose()          fdopen()          feof()            ferror()          fflush()          fgetc()           fgets()           fileno()          flockfile()       fopen()           fprintf()         fputc()           fputs()           fread()           freopen()         fscanf()          ftrylockfile()    funlockfile()     fwrite()          getc()            getc_unlocked()   getchar()         getchar_unlocked()gets()            perror()          printf()          putc()            putc_unlocked()   putchar()         putchar_unlocked()puts()            scanf()           setbuf()          setvbuf()         snprintf()        sprintf()         sscanf()          stder            stdin             stdout            ungetc()          vfprintf()        vfscanf()          vprintf()          vscanf()           vsnprintf()        vsprintf()         vsscanf()
+```
+
+
+
 ### stdlib.h
+
 | [<stdlib.h>](https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/stdlib.h.html) |                                                              |      |      |
 | ---- | ---- | ---- | ---- |
 |                                                              | [abort()](https://pubs.opengroup.org/onlinepubs/9699919799/functions/abort.html) | *    | *    |
